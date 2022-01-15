@@ -6,8 +6,8 @@ module.exports = {
 		clientID: '874296955600252939'
 	},
 	website: {
-		protocol: 'http://',
-		domain: 'game01.teo-bot.fr:25572',
+		protocol: 'https://',
+		domain: 'eliteprotect.heroku.com',
 		port: 25572,
 		captcha: {
 			sitekey: '8f0a59c7-8bbb-474c-9733-2bd4e4458dfb',
