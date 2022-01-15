@@ -340,7 +340,7 @@ module.exports = function(client) {
 		});
 	});
 
-	app.listen(config.website.port, null, null, () =>
+	app.listen(, null, null, () =>
 		console.log(`[INFO]: The Dashboard is ready on port ${config.website.port}`)
 	);
 };
