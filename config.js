@@ -8,7 +8,7 @@ module.exports = {
 	website: {
 		protocol: 'https://',
 		domain: 'eliteprotect.heroku.com',
-		port: 25572,
+		port: 8080,
 		captcha: {
 			sitekey: '8f0a59c7-8bbb-474c-9733-2bd4e4458dfb',
 			secretkey: '0x2195F0b238b984d66CCaF26048B52cefD57463aC'
