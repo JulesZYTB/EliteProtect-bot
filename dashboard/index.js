@@ -27,7 +27,7 @@ module.exports = function(client) {
 			host: domainUrl.hostname,
 			protocol: domainUrl.protocol
 		};
-		callbackUrl = `${domain.protocol}//${domain.host}:25572/callback`;
+		callbackUrl = `${domain.protocol}//${domain.host}/callback`;
 	} catch (e) {
 		console.log(e);
 		throw new TypeError(
