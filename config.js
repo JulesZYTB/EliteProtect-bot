@@ -10,8 +10,8 @@ module.exports = {
 		domain: 'eliteprotect.herokuapp.com',
 		port: 8080,
 		captcha: {
-			sitekey: '8f0a59c7-8bbb-474c-9733-2bd4e4458dfb',
-			secretkey: '0x2195F0b238b984d66CCaF26048B52cefD57463aC'
+			sitekey: '6d5235e0-5c9a-4762-acfd-e2c2e79c605c',
+			secretkey: '0x0fB33D3b62df56094Ba2983e146b6Bb56ae3f1E7'
 		}
 	}
 };
