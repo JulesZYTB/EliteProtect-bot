@@ -27,7 +27,7 @@ module.exports = function(client) {
 			host: domainUrl.hostname,
 			protocol: domainUrl.protocol
 		};
-		callbackUrl = `${domain.protocol}//${domain.host}/callback`;
+		callbackUrl = `${domain.protocol}//${domain.host}:25572/callback`;
 	} catch (e) {
 		console.log(e);
 		throw new TypeError(
@@ -340,7 +340,7 @@ module.exports = function(client) {
 		});
 	});
 
-	app.listen(3000, null, null, () =>
+	app.listen(config.website.port, null, null, () =>
 		console.log(`[INFO]: The Dashboard is ready on port ${config.website.port}`)
 	);
 };
