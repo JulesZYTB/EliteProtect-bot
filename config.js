@@ -6,12 +6,12 @@ module.exports = {
 		clientID: '874296955600252939'
 	},
 	website: {
-		protocol: 'https://',
-		domain: 'eliteprotect.herokuapp.com',
-		port: 8080,
+		protocol: 'http://',
+		domain: 'game01.teo-bot.fr:25572',
+		port: 25572,
 		captcha: {
-			sitekey: '6d5235e0-5c9a-4762-acfd-e2c2e79c605c',
-			secretkey: '0x0fB33D3b62df56094Ba2983e146b6Bb56ae3f1E7'
+			sitekey: '8f0a59c7-8bbb-474c-9733-2bd4e4458dfb',
+			secretkey: '0x2195F0b238b984d66CCaF26048B52cefD57463aC'
 		}
 	}
 };
